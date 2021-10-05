@@ -1,0 +1,12 @@
+{% extends "WebSite/templates_skeleton.html" %}
+
+{% block title %}Mon Site{% endblock %}
+
+{% block content %}
+
+{% load static %}<img src="{% static 'images/photo.jpg' %}" class="rounded-circle mx-auto d-block">
+<br><br>
+<h2>Bienvenue dans mon site web fait avec Python via le Framework Django</h2>
+<h4>Je vous invite à parcourir les différentes pages accéssible grâce à la barre de navigation</h4>
+
+{% endblock %}

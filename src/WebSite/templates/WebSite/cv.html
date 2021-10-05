@@ -1,0 +1,10 @@
+{% extends "WebSite/templates_skeleton.html" %}
+
+{% block title %}Mon CV{% endblock %}
+
+{% block content %}
+<h1>Mon CV </h1>
+
+<br><br>
+{% load static %}<iframe src="{% static 'pdf/grenoux_nicolas_cv.pdf' %}" width="100%" height="1570px"></iframe>
+{% endblock %}
