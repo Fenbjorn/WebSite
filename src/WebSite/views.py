@@ -7,3 +7,4 @@ def index(request):
 
 def pages(request, other_pages):
     return render(request, f'WebSite/{other_pages}.html')
+

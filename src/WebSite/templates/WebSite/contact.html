@@ -5,5 +5,32 @@
 {% block content %}
 
 <h1>Me contacter</h1>
+<br><br>
+<h3>Par mail</h3>
+<br><br>
+<div>
+    {% load static %}<img src="{% static 'images/mail.png' %}" class="align-middle mr-2">
+    <span class="align-middle">ngrenoux@gmail.com</span>
+</div>
+<br><br>
+<h3>Par téléphone</h3>
+<br>
+<div>
+    {% load static %}<img src="{% static 'images/phone.png' %}" class="align-middle mr-2">
+    <span class="align-middle">06.37.38.36.09</span>
+</div>
+<br><br>
+<h3>Mes réseaux</h3>
+<br><br>
+<div>
+    <a href="https://github.com/Fenbjorn" class="align-middle mr-2">
+        {% load static %}<img src="{% static 'images/github.png' %}">
+    </a>
+    <a href="https://www.linkedin.com/in/ngrenoux/" class="align-middle">
+        {% load static %}<img src="{% static 'images/linkedin.png' %}">
+    </a>
+</div>
+
+
 
 {% endblock %}
