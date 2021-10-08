@@ -8,7 +8,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
     path('<str:other_pages>/', pages, name='pages'),
-    path('open/<str:path>/', views.open_file, name='open-file'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
