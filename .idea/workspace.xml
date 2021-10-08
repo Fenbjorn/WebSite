@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2da1a0-9e09-43ae-8925-f6caa9315557" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebSite/static/pdf/GRENOUX_Nicolas_CV.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WebSite/templates/WebSite/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebSite/templates/WebSite/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebSite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebSite/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
